@@ -5,7 +5,10 @@ public class MainUnit {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		B parent = new B();
+		A root = new A();
+		B parent = new B(root);
+		
+		
 		parent.foobar();
 
 	}

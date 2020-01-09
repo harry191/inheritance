@@ -2,7 +2,11 @@ package com.qa.aggregates;
 
 public class B {
 
-	private A parent = new A();
+	private IA parent;
+
+	public B(IA theParent) {
+		parent = theParent;
+	}
 
 	public int foobar() {
 		parent.foobar();
