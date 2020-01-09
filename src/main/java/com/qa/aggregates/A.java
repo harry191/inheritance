@@ -1,23 +1,21 @@
 package com.qa.aggregates;
 
-public abstract class A {
+public class A {
 
 	private int x = 7;
-	
-	
+
 	public A() {
-		
+
 	}
-	
-	
+
 	public int foobar() {
-		int x=9;
+		int x = 9;
 		System.out.println("A::foobar()");
 		return 3;
 	}
-	
-	
-	public abstract void f1();
-	
-	
+
+	public void f1() {
+		System.out.println("Shouldn't be here");
+	}
+
 }
