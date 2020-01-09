@@ -5,7 +5,7 @@ public class MainUnit {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		A root = new A();
+		IA root = new AStub();
 		B parent = new B(root);
 		
 		
